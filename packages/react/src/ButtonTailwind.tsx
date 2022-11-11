@@ -31,11 +31,13 @@ const ProxyTest = () => {
 
 export const Button = ({ disabled, loading, ...rest }: any) => {
   const [state, setState] = useState({
-    value: 'Accessible variable',
+    value: 'Accessible variable s',
     components: {
       Header: Test,
     },
   });
+
+  console.log(setState)
 
   return (
     <div>
