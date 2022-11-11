@@ -1,0 +1,30 @@
+{
+  "name": "@newline-ds/storybook",
+  "packageManager": "yarn@3.2.1",
+  "private": true,
+  "dependencies": {
+    "@newline-ds/foundation": "workspace:^",
+    "@newline-ds/react": "workspace:^"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@mdx-js/react": "^1.6.22",
+    "@storybook/addon-a11y": "^7.0.0-alpha.46",
+    "@storybook/addon-actions": "^7.0.0-alpha.46",
+    "@storybook/addon-docs": "^7.0.0-alpha.46",
+    "@storybook/addon-essentials": "^7.0.0-alpha.46",
+    "@storybook/addon-interactions": "^7.0.0-alpha.46",
+    "@storybook/addon-links": "^7.0.0-alpha.46",
+    "@storybook/react": "^7.0.0-alpha.46",
+    "@storybook/react-vite": "^7.0.0-alpha.46",
+    "@storybook/react-webpack5": "^7.0.0-alpha.46",
+    "@storybook/testing-library": "^0.0.14-next.0",
+    "babel-loader": "^8.2.5",
+    "chromatic": "^6.8.0",
+    "storybook": "^7.0.0-alpha.46"
+  },
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  }
+}
